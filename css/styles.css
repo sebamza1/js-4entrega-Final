@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: #fbfafd;
+
+}
+
+header {
+  background-color: #0dd12e;
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+header p {
+  text-align: center;
+}
+
+header button {
+  align-self: flex-end;
+  margin-top: -70px;
+  background-color: #3c1f57;
+  transition: all 0.50s;
+  border-radius: 20px;
+}
+header button span{
+  background-color: #56219b;
+  color: azure;
+  border-radius: 35px;
+  text-align:justify;
+  padding: 0.3rem;
+}
+
+header button:hover {
+  color: rgba(121, 120, 120, 0.75);
+  box-shadow: 0 4px 16px rgba(132, 182, 202, 0.75);
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+  padding: 15px;
+  background-color: #460485;
+}
+
+#contenedor {
+  display: grid;
+  justify-content: center; /* Alinear horizontalmente al centro */
+  align-items: center; /* Alinear verticalmente al centro */
+  
+  margin-left: 10rem;
+  margin-right: 10rem;
+  
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem
+}
+
+.tarjeta-producto {
+  border: 1px solid #bbb5b5;
+  border-radius: 1rem;
+  text-align: center;
+  margin: .5rem;
+  padding: 1rem;
+}
+
+
+.tarjeta-producto .detalle-producto{
+  background-color: rgba(125, 41, 128, 0.2);
+  margin: 0.5rem;
+  border-radius: 1rem;
+}
+
+.tarjeta-producto img {
+  max-width: 135px;   /* Ajusta el ancho máximo deseado */
+  max-height: 135px;   /* Ajusta la altura máxima deseada */
+}
+
+.tarjeta-producto button {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  width: 50px;
+  
+}
+
+footer {
+  background-color: #190053;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+
+.swal2-popup{
+  background-color: rgba(73, 24, 187, 0.6);
+  color: antiquewhite;
+}
+
+.swal2-popup .miniatura {
+  width: 3rem;   /* Establece el ancho deseado para la miniatura */
+  height: 3rem;   /* Ajusta la altura de forma automática */
+
+}
+
+.producto-carrito {
+  border: #460485 solid 1px;
+  border-radius: 25px;
+  padding-bottom: 10px;
+
+  margin-bottom: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: antiquewhite;
+
+}
