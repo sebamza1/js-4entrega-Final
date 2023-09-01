@@ -1,0 +1,106 @@
+*{
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: #fbfafd;
+}
+
+body main section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 1rem;
+   justify-items: center;
+}
+
+body main section .card{
+    margin: 0.5rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.9s;
+    height: 26rem;
+
+}
+
+body main section .card:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 1);
+  transition: box-shadow 0.9s;
+}
+
+
+body main section .card p{
+  margin: 0rem;
+  padding: 0rem;
+}
+
+body main section .card #pPrecio{
+  margin-bottom: 1rem;
+  
+}
+
+
+  body header #btnVerCarrito{
+    background-color: rgb(70, 96, 245);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.9s;
+    border-radius: 1rem;
+    margin-right: 1rem;
+  }
+  body header #btnVerCarrito:hover{
+    background-color: rgb(51, 79, 238);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.9s;
+  }
+
+  footer{
+    margin-top: 1rem;
+    background-color: rgb(13, 110, 253);
+    color: rgb(255, 255, 255);
+    
+  }
+
+  footer ul{
+    margin-bottom: 0;
+    padding: 0;
+    color: #fbfafd;
+    
+  }
+
+  footer ul li{
+    color: #fbfafd;
+  }
+
+  .nav-link {
+    color: aliceblue;
+  }
+
+  
+.swal2-popup{
+  background-color: rgba(73, 24, 187, 0.6);
+  color: antiquewhite;
+}
+
+.swal2-popup .miniatura {
+  width: 3rem;   /* Establece el ancho deseado para la miniatura */
+  height: 3rem;   /* Ajusta la altura de forma automática */
+
+}
+
+.producto-carrito {
+  border: #460485 solid 1px;
+  border-radius: 25px;
+  padding-bottom: 10px;
+
+  margin-bottom: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: antiquewhite;
+
+}
+
