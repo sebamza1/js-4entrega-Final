@@ -1,0 +1,66 @@
+[
+    {
+      "codigo": "M023",
+      "tipo": "mouse",
+      "precio": 32412,
+      "marca": "RedDragon",
+      "img": "./img/productos/m01.png"
+    },
+    {
+      "codigo": "M024",
+      "tipo": "mouse",
+      "precio": 42412,
+      "marca": "BlueFalcon",
+      "img": "./img/productos/m02.png"
+    },
+    {
+      "codigo": "M025",
+      "tipo": "microfono",
+      "precio": 52412,
+      "marca": "GreenPhoenix",
+      "img": "./img/productos/mic01.png"
+    },
+    {
+      "codigo": "M026",
+      "tipo": "teclado",
+      "precio": 62412,
+      "marca": "RedDragon",
+      "img": "./img/productos/t02.png"
+    },
+    {
+      "codigo": "M027",
+      "tipo": "auricular",
+      "precio": 72412,
+      "marca": "BlueFalcon",
+      "img": "./img/productos/a01.png"
+    },
+    {
+      "codigo": "M029",
+      "tipo": "parlante",
+      "precio": 82412,
+      "marca": "GreenPhoenix",
+      "img": "./img/productos/p01.png"
+    },
+    {
+      "codigo": "M030",
+      "tipo": "auricular",
+      "precio": 62412,
+      "marca": "RedDragon",
+      "img": "./img/productos/a02.png"
+    },
+    {
+      "codigo": "M031",
+      "tipo": "teclado",
+      "precio": 72412,
+      "marca": "BlueFalcon",
+      "img": "./img/productos/t01.png"
+    },
+    {
+      "codigo": "M032",
+      "tipo": "parlante",
+      "precio": 82412,
+      "marca": "GreenPhoenix",
+      "img": "./img/productos/p02.png"
+    }
+  ]
+  
